@@ -60,7 +60,7 @@ const CURRICULUM = {
   professores: [
     "Adonhiran Bernard de Almeida Reis",
     "Eduardo Semencio",
-    "Emerson Luiz de Biaggi",
+    "Emerson Luiz de Biaggi - Música de Câmara",
   ],
   cursosOficinas: [
     "Masterclass com Carmelo de Los Santos (2020)",
@@ -139,9 +139,8 @@ const CERTIFICATES = [
 const VIDEOS = [
   { title: "Performance 1", url: "https://youtu.be/iH2zYScMdtQ?si=2N5sR6PHD2mV6QxC" },
   { title: "Performance 2", url: "https://youtu.be/JxR7ZfsrTAY?si=8LEz2BFgQa1m4cjF" },
-  { title: "Performance 3", url: "https://youtu.be/lPLL0n4HM1k?si=yHVD_2zDVEPo1FPS" },
-  { title: "Performance 4 (Short)", url: "https://youtube.com/shorts/FmJivfJie6E?si=NZT12U_MAdeOVvRk" },
-  { title: "Performance 5", url: "https://youtu.be/-gkBvFs9Fyw?si=d7-G4fLRpAZvoPKJ" },
+  { title: "Performance 3", url: "https://youtube.com/shorts/FmJivfJie6E?si=NZT12U_MAdeOVvRk" },
+  { title: "Performance 4", url: "https://youtu.be/-gkBvFs9Fyw?si=d7-G4fLRpAZvoPKJ" },
 ];
 
 /* ===== UI primitives ===== */
@@ -227,8 +226,7 @@ export default function PortfolioAnaBeatrizTinini() {
               Participei da Orquestra Filarmônica de Jundiaí, fui bolsista na Orquestra Sinfônica da
               Unicamp (2023–2024) e atuei como bolsista no arquivo da mesma orquestra (2024–início de
               2025). Junto à OSU participei do Festival de Música de Campos do Jordão, Festival de Música
-              de Indaiatuba e Festival de Música Contemporânea Brasileira. Atualmente integro a produção
-              da Orquestra do Departamento do Instituto de Artes da Unicamp.
+              de Indaiatuba e Festival de Música Contemporânea Brasileira.
             </p>
           </CardBody>
         </Card>
@@ -405,8 +403,8 @@ export default function PortfolioAnaBeatrizTinini() {
 
       <footer className="border-t mt-8">
         <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} {ARTIST.name}. Portfólio minimalista.</p>
-          <p>Feito para violino.</p>
+          <p>© {new Date().getFullYear()} {ARTIST.name} - Violinista Profissional.</p>
+          <p>Feito por Heitor J. de Lima.</p>
         </div>
       </footer>
     </div>
